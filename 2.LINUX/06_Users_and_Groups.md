@@ -507,7 +507,7 @@ su
 
 ✅ Know the difference between Root, Normal, and System users.
 
-✅ Remember the purpose of `/etc/passwd`, `/etc/shadow`, and `/etc/group`.
+✅ Remember the purpose of `/etc/passwd`, `/etc/shadow`, and `/etc/group`.(see detailed in below file)
 
 ✅ Explain the difference between `su` and `sudo`.
 
