@@ -1,4 +1,4 @@
-1.Can you explain your current role at Wizinoa?
+#1.Can you explain your current role at Wizinoa?
 Currently, I am working as a DevOps Engineer at Wizinoa Technologies. My primary responsibility is to manage Linux production servers and support application deployments.
 
 I work with React frontend and Node.js backend applications. My daily tasks include configuring Nginx reverse proxy, managing Cloudflare DNS records, implementing SSL certificates using Let's Encrypt (Certbot), and managing backend services using PM2.
@@ -8,10 +8,10 @@ Apart from deployments, I also troubleshoot production issues related to DNS, SS
 I also collaborate with developers during deployments and help ensure smooth production releases with minimal downtime.
 
 
-2.What do you like most about your job?
+#2.What do you like most about your job?
 I enjoy troubleshooting production issues because every issue teaches me something new. I also like deploying applications and seeing them go live successfully.
 
-3.Can you explain one production deployment?
+#3.Can you explain one production deployment?
 One of the deployments I handled was for a client website where both the React frontend and Node.js backend had to be deployed on a Linux VPS.
 
 First, I pulled the latest code from GitHub. For the frontend, I installed the dependencies, generated the production build, and configured Nginx to serve the build files.
@@ -23,7 +23,7 @@ After that, I configured the domain in Cloudflare, updated the DNS records, gene
 Finally, I verified that the website was accessible, all pages loaded correctly, and the APIs were functioning as expected before sharing the production URL with the team.
 
 
-4.Walk me through your daily activities.My day usually starts by checking whether all production websites are running properly. If there are any issues, I investigate the logs and resolve them.
+#4.Walk me through your daily activities.My day usually starts by checking whether all production websites are running properly. If there are any issues, I investigate the logs and resolve them.
 
 When there are new deployments, I pull the latest code, deploy the frontend and backend applications, configure Nginx if required, and manage the backend processes using PM2.
 
@@ -32,7 +32,7 @@ I also handle Cloudflare DNS updates, SSL certificate configuration and renewal,
 Throughout the day, I coordinate with developers to resolve deployment-related issues and ensure that production services remain stable.
 
 
-5.How do you deploy a React + Node.js application?
+#5.How do you deploy a React + Node.js application?
 
 Developer
       │
@@ -72,7 +72,7 @@ Finally, I test the frontend, backend APIs, login functionality, and overall web
 
 
 
-6.Can you explain one production issue you resolved?
+#6.Can you explain one production issue you resolved?
 One production issue I handled was related to a website that was not loading correctly after deployment.
 
 I first checked whether the backend application was running using PM2. Then I verified the Nginx configuration using `nginx -t` and checked the Nginx error logs.
